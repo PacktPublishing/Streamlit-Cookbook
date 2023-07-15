@@ -1,3 +1,16 @@
+---
+layout: book chapter
+title: "Improving Streamlit Application Performanc"
+description: "We will explore several key themes that will help improve the performance capabilities of your Streamlit applications. You will gain understanding of implementing effective caching, optimizing application performance through profiling and asynchronous programming, utilizing parallel processing, integrating Git LFS, and implementing data cleanup mechanisms. We will provide practical examples, tips, and best practices to help you enhance the responsiveness and performance of your Streamlit applications."
+date: "2023-07-15"
+author:
+  name: "Arvindra Sehmi"
+  url: "https://www.linkedin.com/in/asehmi/"
+  mail: "vin [at] thesehmis.com"
+  avatar: "https://twitter.com/asehmi/profile_image?size=original"
+related: N/A
+---
+
 # Improving Streamlit Application Performance
 
 In this chapter, we will explore several key themes that will help improve the performance capabilities of your Streamlit applications. These themes include:
