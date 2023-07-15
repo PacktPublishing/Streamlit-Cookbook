@@ -1,0 +1,69 @@
+2023-07-14 01:27:43,240 | INFO |          2 function calls in 2.878 seconds
+2023-07-14 01:27:43,241 | INFO | 
+2023-07-14 01:27:43,241 | INFO |    Ordered by: internal time
+2023-07-14 01:27:43,241 | INFO | 
+2023-07-14 01:27:43,241 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:43,242 | INFO |         1    2.878    2.878    2.878    2.878 profiling_continuous.py:20(slow_function)
+2023-07-14 01:27:43,242 | INFO |         1    0.000    0.000    0.000    0.000 profiling_continuous.py:46(profile_and_log_stats)
+2023-07-14 01:27:43,242 | INFO | 
+2023-07-14 01:27:43,242 | INFO | 
+2023-07-14 01:27:43,243 | INFO | 
+2023-07-14 01:27:46,272 | INFO |          3 function calls in 2.878 seconds
+2023-07-14 01:27:46,273 | INFO | 
+2023-07-14 01:27:46,273 | INFO |    Ordered by: internal time
+2023-07-14 01:27:46,273 | INFO | 
+2023-07-14 01:27:46,273 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:46,274 | INFO |         1    2.878    2.878    2.878    2.878 profiling_continuous.py:20(slow_function)
+2023-07-14 01:27:46,274 | INFO |         2    0.000    0.000    0.000    0.000 profiling_continuous.py:46(profile_and_log_stats)
+2023-07-14 01:27:46,274 | INFO | 
+2023-07-14 01:27:46,274 | INFO | 
+2023-07-14 01:27:46,274 | INFO | 
+2023-07-14 01:27:46,275 | INFO |          4 function calls in 2.878 seconds
+2023-07-14 01:27:46,275 | INFO | 
+2023-07-14 01:27:46,275 | INFO |    Ordered by: internal time
+2023-07-14 01:27:46,275 | INFO | 
+2023-07-14 01:27:46,275 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:46,276 | INFO |         1    2.878    2.878    2.878    2.878 profiling_continuous.py:20(slow_function)
+2023-07-14 01:27:46,276 | INFO |         3    0.000    0.000    0.000    0.000 profiling_continuous.py:46(profile_and_log_stats)
+2023-07-14 01:27:46,276 | INFO | 
+2023-07-14 01:27:46,276 | INFO | 
+2023-07-14 01:27:46,276 | INFO | 
+2023-07-14 01:27:46,308 | INFO |          2 function calls in 0.031 seconds
+2023-07-14 01:27:46,308 | INFO | 
+2023-07-14 01:27:46,308 | INFO |    Ordered by: internal time
+2023-07-14 01:27:46,309 | INFO | 
+2023-07-14 01:27:46,309 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:46,309 | INFO |         1    0.031    0.031    0.031    0.031 profiling_continuous.py:33(fast_function)
+2023-07-14 01:27:46,309 | INFO |         1    0.000    0.000    0.000    0.000 profiling_continuous.py:46(profile_and_log_stats)
+2023-07-14 01:27:46,309 | INFO | 
+2023-07-14 01:27:46,310 | INFO | 
+2023-07-14 01:27:46,310 | INFO | 
+2023-07-14 01:27:46,339 | INFO |          3 function calls in 0.031 seconds
+2023-07-14 01:27:46,339 | INFO | 
+2023-07-14 01:27:46,340 | INFO |    Ordered by: internal time
+2023-07-14 01:27:46,340 | INFO | 
+2023-07-14 01:27:46,340 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:46,340 | INFO |         1    0.031    0.031    0.031    0.031 profiling_continuous.py:33(fast_function)
+2023-07-14 01:27:46,340 | INFO |         2    0.000    0.000    0.000    0.000 profiling_continuous.py:46(profile_and_log_stats)
+2023-07-14 01:27:46,340 | INFO | 
+2023-07-14 01:27:46,340 | INFO | 
+2023-07-14 01:27:46,340 | INFO | 
+2023-07-14 01:27:46,340 | INFO |          4 function calls in 0.031 seconds
+2023-07-14 01:27:46,340 | INFO | 
+2023-07-14 01:27:46,340 | INFO |    Ordered by: internal time
+2023-07-14 01:27:46,340 | INFO | 
+2023-07-14 01:27:46,340 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:46,340 | INFO |         1    0.031    0.031    0.031    0.031 profiling_continuous.py:33(fast_function)
+2023-07-14 01:27:46,340 | INFO |         3    0.000    0.000    0.000    0.000 profiling_continuous.py:46(profile_and_log_stats)
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO |          1 function calls in 5.979 seconds
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO |    Ordered by: internal time
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-14 01:27:46,341 | INFO |         1    5.979    5.979    5.979    5.979 cProfile.py:113(__enter__)
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO | 
+2023-07-14 01:27:46,341 | INFO | 

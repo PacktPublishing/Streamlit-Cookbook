@@ -1,0 +1,11 @@
+2023-07-13 21:26:12,742 | INFO |          3 function calls in 0.120 seconds
+2023-07-13 21:26:12,743 | INFO | 
+2023-07-13 21:26:12,743 | INFO |    Ordered by: internal time
+2023-07-13 21:26:12,744 | INFO | 
+2023-07-13 21:26:12,744 | INFO |    ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+2023-07-13 21:26:12,745 | INFO |         1    0.119    0.119    0.119    0.119 profiling_logger.py:12(slow_function)
+2023-07-13 21:26:12,745 | INFO |         1    0.001    0.001    0.001    0.001 profiling_logger.py:16(fast_function)
+2023-07-13 21:26:12,745 | INFO |         1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+2023-07-13 21:26:12,745 | INFO | 
+2023-07-13 21:26:12,746 | INFO | 
+2023-07-13 21:26:12,746 | INFO | 
