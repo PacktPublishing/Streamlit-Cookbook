@@ -105,7 +105,7 @@ else:
     st.write("Please select an option 👆")
 
 #------------------------------------------------------------------------------
-# ----------------4: Using sliders and range sliders----------------
+# ----------------5: Using sliders and range sliders----------------
 
 recommend = st.slider('How likely is it that you would recommend our restaurant to a friend or colleague?', 1, 10, 7)
 st.write('Indicates -- *0: Not at all likely;  10: Extremely likely*')
