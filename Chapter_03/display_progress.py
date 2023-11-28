@@ -41,7 +41,7 @@ if capital == 'Cairo':
     st.session_state["progress"] = min(100, st.session_state["progress"] + 50)
     bar.progress(st.session_state["progress"], text="Progress: {}%".format(st.session_state["progress"]))
 
-# Theballoons pop up once the quiz is complete
+# The balloons pop up once the quiz is complete
 if st.session_state["progress"] == 100:
     sleep(2)
     st.balloons()
