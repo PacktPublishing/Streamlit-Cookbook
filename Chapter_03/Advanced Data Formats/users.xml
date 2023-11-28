@@ -1,0 +1,29 @@
+<data>
+    <user>
+        <name>Gary D'souza</name>
+        <age>30</age>
+        <address>
+            <street>123 Main St</street>
+            <city>New York</city>
+            <country>USA</country>
+         </address>
+    </user>
+    <user>
+        <name>Svetlana</name>
+        <age>38</age>
+        <address>
+            <street>Turgeneva, bld. 145</street>
+            <city>Krasnodar</city>
+            <country>Russia</country>
+        </address>
+    </user>
+    <user>
+        <name>Rajeev Mehra</name>
+        <age>27</age>
+        <address>
+            <street>175-185 Grays Inn Road</street>
+            <city>London</city>
+            <country>UK</country>
+        </address>
+    </user>
+</data>

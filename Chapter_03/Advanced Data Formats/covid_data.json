@@ -1,0 +1,19 @@
+{
+    "countries": [
+        {
+            "name": "USA",
+            "cases": 100000,
+            "deaths": 2000
+        },
+        {
+            "name": "India",
+            "cases": 150000,
+            "deaths": 3000
+        },
+        {
+            "name": "China",
+            "cases": 2000000,
+            "deaths": 10000
+        }
+    ]
+}
