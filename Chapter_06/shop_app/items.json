@@ -2,7 +2,6 @@
     {
         "sku": 1,
         "name": "Wireless Mouse",
-        "brand": "Ratón",
         "price": 25.99,
         "description": "Ergonomic wireless mouse with USB receiver.",
         "image": "https://placehold.co/200x200?text=Wireless\\nMouse"
@@ -10,7 +9,6 @@
     {
         "sku": 2,
         "name": "Bluetooth Headphones",
-        "brand": "Audífono",
         "price": 59.99,
         "description": "Noise-cancelling over-ear Bluetooth headphones.",
         "image": "https://placehold.co/200x200?text=Bluetooth\\nHeadphones"
@@ -18,7 +16,6 @@
     {
         "sku": 3,
         "name": "Mechanical Keyboard",
-        "brand": "Teclado",
         "price": 75.49,
         "description": "RGB backlit mechanical keyboard with blue switches.",
         "image": "https://placehold.co/200x200?text=Mechanical\\nKeyboard"
@@ -26,7 +23,6 @@
     {
         "sku": 4,
         "name": "HD Webcam",
-        "brand": "Cámara",
         "price": 45.00,
         "description": "1080p HD webcam with built-in microphone.",
         "image": "https://placehold.co/200x200?text=HD\\nWebcam"
@@ -34,7 +30,6 @@
     {
         "sku": 5,
         "name": "External Hard Drive",
-        "brand": "Duro",
         "price": 89.95,
         "description": "1TB portable external hard drive with USB 3.0.",
         "image": "https://placehold.co/200x200?text=External\\nHard\\nDrive"
@@ -42,7 +37,6 @@
     {
         "sku": 6,
         "name": "Smartphone Stand",
-        "brand": "Celuco",
         "price": 12.99,
         "description": "Adjustable aluminum smartphone stand.",
         "image": "https://placehold.co/200x200?text=Smartphone\\nStand"
@@ -50,7 +44,6 @@
     {
         "sku": 7,
         "name": "USB-C Hub",
-        "brand": "Hubby",
         "price": 34.50,
         "description": "6-in-1 USB-C hub with HDMI and SD card reader.",
         "image": "https://placehold.co/200x200?text=USB-C\\nHub"
@@ -58,7 +51,6 @@
     {
         "sku": 8,
         "name": "Portable Charger",
-        "brand": "Cárgalo",
         "price": 29.99,
         "description": "10,000mAh portable charger with dual USB ports.",
         "image": "https://placehold.co/200x200?text=Portable\\nCharger"
@@ -66,7 +58,6 @@
     {
         "sku": 9,
         "name": "Gaming Chair",
-        "brand": "Cher",
         "price": 199.99,
         "description": "Ergonomic gaming chair with lumbar support.",
         "image": "https://placehold.co/200x200?text=Gaming\\nChair"
@@ -74,7 +65,6 @@
     {
         "sku": 10,
         "name": "Smart Light Bulb",
-        "brand": "Buzz",
         "price": 15.75,
         "description": "WiFi-enabled smart light bulb with app control.",
         "image": "https://placehold.co/200x200?text=Smart\\nLight\\nBulb"
