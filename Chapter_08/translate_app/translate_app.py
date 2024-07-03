@@ -39,10 +39,16 @@ def main():
     left_col, right_col = st.columns(2)
 
     with config_col:
-        st.radio(
-            "🦜", LANGUAGES, key="lang", format_func=LANGUAGES.get, horizontal=True
-        )
-        _ = partial(translate, lang=st.session_state.get("lang", None))
+        with st.popover("🦜"):
+            st.radio(
+                "Select a language",
+                LANGUAGES,
+                key="lang",
+                format_func=LANGUAGES.get,
+                horizontal=True,
+                label_visibility="collapsed",
+            )
+            _ = partial(translate, lang=st.session_state.get("lang", None))
 
     # The actual contents of the app
     with title_col:
