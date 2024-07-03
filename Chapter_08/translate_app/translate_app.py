@@ -5,10 +5,10 @@ from functools import partial
 from textwrap import wrap
 
 LANGUAGES = {
-    "en-US": "🇺🇸 English",
+    "en-US": "🇺🇸 English (US)",
     "es-CO": "🇨🇴 Español (CO)",
     "fr-FR": "🇫🇷 Français (FR)",
-    "ja": "🇯🇵: 日本語",
+    "ja": "🇯🇵 日本語",
 }
 TRANSLATORS = {lang: Translator(to_lang=lang) for lang in LANGUAGES.keys()}
 
