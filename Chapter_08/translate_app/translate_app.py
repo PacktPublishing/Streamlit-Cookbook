@@ -4,7 +4,12 @@ from typing import Optional
 from functools import partial
 from textwrap import wrap
 
-LANGUAGES = {"en-US": "🇺🇸", "es-CO": "🇨🇴", "fr-FR": "🇫🇷", "ja": "🇯🇵"}
+LANGUAGES = {
+    "en-US": "🇺🇸 English",
+    "es-CO": "🇨🇴 Español (CO)",
+    "fr-FR Français (FR)": "🇫🇷",
+    "ja": "🇯🇵: 日本語",
+}
 TRANSLATORS = {lang: Translator(to_lang=lang) for lang in LANGUAGES.keys()}
 
 
@@ -30,11 +35,11 @@ def translate(message: str, lang: Optional[str] = None) -> str:
 
 def main():
     # Layout of app
-    title_col, config_col = st.columns([4, 1])
+    title_col, config_col = st.columns([4, 1], vertical_alignment="bottom")
     left_col, right_col = st.columns(2)
 
     with config_col:
-        st.selectbox("🦜", LANGUAGES, key="lang", format_func=LANGUAGES.get)
+        st.radio("🦜", LANGUAGES, key="lang", format_func=LANGUAGES.get, horizontal=True)
         _ = partial(translate, lang=st.session_state.get("lang", None))
 
     # The actual contents of the app
