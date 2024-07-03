@@ -39,13 +39,12 @@ def main():
     left_col, right_col = st.columns(2)
 
     with config_col:
-        with st.popover("🦜"):
+        with st.popover("🦜", use_container_width=True):
             st.radio(
                 "Select a language",
                 LANGUAGES,
                 key="lang",
                 format_func=LANGUAGES.get,
-                horizontal=True,
                 label_visibility="collapsed",
             )
             _ = partial(translate, lang=st.session_state.get("lang", None))
