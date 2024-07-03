@@ -7,7 +7,7 @@ from textwrap import wrap
 LANGUAGES = {
     "en-US": "🇺🇸 English",
     "es-CO": "🇨🇴 Español (CO)",
-    "fr-FR Français (FR)": "🇫🇷",
+    "fr-FR": "🇫🇷 Français (FR)",
     "ja": "🇯🇵: 日本語",
 }
 TRANSLATORS = {lang: Translator(to_lang=lang) for lang in LANGUAGES.keys()}
@@ -40,7 +40,7 @@ def main():
 
     with config_col:
         st.radio("🦜", LANGUAGES, key="lang", format_func=LANGUAGES.get, horizontal=True)
-        _ = partial(translate, lang=st.session_state.get("lang", None))
+        _ = partial(translate, lang=st.session_state.get("lang", N  one))
 
     # The actual contents of the app
     with title_col:
