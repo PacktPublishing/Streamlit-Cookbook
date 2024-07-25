@@ -1,0 +1,7 @@
+[theme]
+base = "light"
+font="sans serif"
+backgroundColor = "snow"
+primaryColor = "#43a2caff"
+secondaryBackgroundColor = '#e5f5f980'
+textColor="#262730"
