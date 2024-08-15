@@ -1,0 +1,9 @@
+pip
+streamlit
+xarray
+pandas
+matplotlib
+folium
+streamlit-folium
+planetary-computer
+scikit-image

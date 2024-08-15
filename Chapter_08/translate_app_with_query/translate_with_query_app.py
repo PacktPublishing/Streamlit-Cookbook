@@ -11,7 +11,10 @@ LANGUAGES = {
     "ja": "🇯🇵 日本語",
 }
 
-TRANSLATORS = {lang: Translator(to_lang=lang) for lang in LANGUAGES.keys()}
+TRANSLATORS = {
+    lang: Translator(to_lang=lang, email=st.secrets["mymemory"]["email"])
+    for lang in LANGUAGES.keys()
+}
 
 
 @st.cache_resource
@@ -39,15 +42,32 @@ def main():
     left_col, right_col = st.columns(2)
 
     with config_col:
+        # Check if a language was specified in the URL
+        lang_idx = 0
+        if lang := st.query_params.get("lang", False):
+            try:
+                available_languages = [k[:2] for k in LANGUAGES.keys()]
+                lang_idx = available_languages.index(lang)
+            except ValueError:
+                st.toast(
+                    f"The language `{lang}` is not supported. Defaulting to English.",
+                    icon="🏴‍☠",
+                )
+
         with st.popover("🦜", use_container_width=True):
             st.radio(
                 "Select a language",
                 LANGUAGES,
+                index=lang_idx,
                 key="lang",
                 format_func=LANGUAGES.get,
                 label_visibility="collapsed",
             )
-            _ = partial(translate, lang=st.session_state.get("lang", None))
+            _ = partial(
+                translate,
+                lang=st.session_state.get("lang", None),
+            )
+            st.query_params["lang"] = st.session_state.lang[:2]
 
     # The actual contents of the app
     with title_col:
