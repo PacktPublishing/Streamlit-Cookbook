@@ -8,11 +8,13 @@ st.write(df.head(5))
 st.subheader('User Ratings based on the Genre: Non-Fiction and Fiction')
 d1 = df[df["Genre"] == "Non Fiction"]
 temp_d1 = d1['User Rating'].value_counts().reset_index()
-st.line_chart(temp_d1)
+temp_d1.columns = ['User Rating Value', 'Count']
+st.line_chart(temp_d1.set_index('User Rating Value'))
 
 d2 = df[df["Genre"] == "Fiction"]
 temp_d2 = d2['User Rating'].value_counts().reset_index()
-st.line_chart(temp_d2)
+temp_d2.columns = ['User Rating Value', 'Count']
+st.line_chart(temp_d2.set_index('User Rating Value'))
 st.write('⚡Findings - :green[**More user ratings for Non-Fiction books!**]')
 
 
