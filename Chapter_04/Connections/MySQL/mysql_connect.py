@@ -5,7 +5,7 @@ import seaborn as sns
 st.title(':blue[Streamlit + MySQL Connection]')
 
 # Initialize connection.
-conn = st.experimental_connection('mysql', type='sql')
+conn = st.connection('mysql', type='sql')
 
 # Perform query.
 df = conn.query('SELECT * FROM ds_salary_details;', ttl=600)
