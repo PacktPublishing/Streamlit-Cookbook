@@ -6,7 +6,7 @@ import seaborn as sns
 st.title(':blue[Streamlit + Snowflake Connection❄]')
 
 # Initialize connection.
-conn = st.experimental_connection('snowpark')
+conn = st.connection('snowflake')
 
 # Perform query.
 df = conn.query('SELECT * from DS_SALARY_DETAILS;', ttl=600)
