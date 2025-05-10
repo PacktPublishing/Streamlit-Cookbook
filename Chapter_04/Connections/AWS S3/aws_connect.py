@@ -8,7 +8,7 @@ st.title(':orange[Streamlit + AWS S3 Connection]')
 
 # Create a connection object and retrieve file contents.
 # Specify the input format as a "csv" and cache the result for 600 seconds.
-conn = st.experimental_connection('s3', type=FilesConnection)
+conn = st.connection('s3', type=FilesConnection)
 df = conn.read("st-aws-connect-bucket/data-science-salaries-1.csv", input_format="csv", ttl=600)
 
 st.header('Our Data 👀')
