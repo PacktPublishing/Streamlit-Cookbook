@@ -6,7 +6,7 @@ from streamlit_gsheets import GSheetsConnection
 
 st.title(":blue[Streamlit + Private Google Sheets🔌]")
 
-conn = st.experimental_connection("gsheets", type=GSheetsConnection)
+conn = st.connection("gsheets", type=GSheetsConnection)
 df = conn.read(worksheet="data-science-salaries-1")
 
 st.subheader('Glimpse of the Data 👀')
@@ -46,7 +46,7 @@ if st.button("➕ Create new worksheet"):
         data=df,
     )
     st.cache_data.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 st.write("---")
 
@@ -87,7 +87,7 @@ if st.button("⚡ Update worksheet"):
         data=df,
     )
     st.cache_data.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 # Display our updated Spreadsheet as st.dataframe
 st.dataframe(df)
@@ -116,7 +116,7 @@ if st.button("🧹 Clear worksheet"):
     conn.clear(worksheet="sheets_conn_demo-1")
     st.success("Worksheet sheets_conn_demo-1 is now cleared! 👍")
     st.cache_data.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 st.dataframe(df)
 st.write("---")
@@ -129,6 +129,6 @@ if st.button("💀 Delete worksheet"):
     worksheet = spreadsheet.worksheet("sheets_conn_demo-1")
     spreadsheet.del_worksheet(worksheet)
     st.cache_data.clear()
-    st.experimental_rerun()
+    st.rerun()
 
 st.dataframe(df)
